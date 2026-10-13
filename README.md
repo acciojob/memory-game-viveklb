@@ -1,8 +1,21 @@
 # Memory Game
 
-#### Create a memory game where you need to remember the last selected item's number and complete all tiles in minimum tries.
+#### Match all pairs of numbers in as few attempts as possible.
 
-You need to match 2 similar number to make a pair.
+Choose Easy (8 tiles), Normal (16 tiles), or Hard (32 tiles), then select
+**Start Game**. Select two tiles to make an attempt. Matching tiles remain
+visible; non-matching tiles are hidden again after a short delay. The game ends
+when every pair has been matched. **Play Again** starts a fresh game at the
+current difficulty, and **Choose Level** returns to the difficulty selection.
+
+Start the app with Node.js 16 or later:
+
+```sh
+npm install
+npm start
+```
+
+The development server is available at `http://localhost:8080`.
 
 **Use the following selectors:**
 
